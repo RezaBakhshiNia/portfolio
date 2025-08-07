@@ -32,7 +32,7 @@ export default async function Home({ params }: Props) {
               </Button>
               {/* This is the correct way to access your resume from the public folder */}
               <Button variant="outline" size="lg" asChild>
-                <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="/Reza-Bakhshi-Nia.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="mr-2 h-4 w-4" />
                   {t.home.downloadResume}
                 </Link>
