@@ -138,8 +138,8 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">{t.contact.phone}</p>
-                    <Link href="tel:+1234567890" className="text-muted-foreground hover:text-primary">
-                      +1 (234) 567-8900
+                    <Link href="tel:+989231362715" className="text-muted-foreground hover:text-primary">
+                      +98 (923) 136-2715
                     </Link>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function Contact() {
                   <MapPin className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">{t.contact.location}</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Iran, Tehran</p>
                   </div>
                 </div>
               </CardContent>
